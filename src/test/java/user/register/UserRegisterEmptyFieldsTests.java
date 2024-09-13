@@ -13,8 +13,6 @@ import static org.junit.Assert.*;
 import static ru.praktikum.yandex.constants.Endpoints.*;
 import static ru.praktikum.yandex.constants.UserTestsData.*;
 
-// toDo: Подумать, как присобачить After, который срабатывает только при наличии пользователя
-
 @RunWith(Parameterized.class)
 public class UserRegisterEmptyFieldsTests extends UserTestSteps {
 
